@@ -1,0 +1,95 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Gown production",
+      "class": "gown",
+      "price": 329,
+      "image": "./assets/images/gown1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "watch production",
+      "class": "watch",
+      "price": 329,
+      "image": "./assets/images/watch1.jpg"
+    },
+    {
+      "id": 3,
+      "title": "watch production",
+      "class": "watch",
+      "price": 329,
+      "image": "./assets/images/watch2.jpg"
+    },
+    {
+      "id": 4,
+      "title": "watch production",
+      "class": "watch",
+      "price": 329,
+      "image": "./assets/images/watch3.png"
+    },
+    {
+      "id": 5,
+      "title": "shirt production",
+      "class": "shirt",
+      "price": 329,
+      "image": "./assets/images/shirt1.jpg"
+    },
+    {
+      "id": 6,
+      "title": "jewelry production",
+      "class": "jewelry",
+      "price": 329,
+      "image": "./assets/images/jwellery1.jpg"
+    },
+    {
+      "id": 7,
+      "title": "jewelry production",
+      "class": "jewelry",
+      "price": 329,
+      "image": "./assets/images/jwellery2.jpg"
+    },
+    {
+      "id": 8,
+      "title": "jewelry production",
+      "class": "jewelry",
+      "price": 329,
+      "image": "./assets/images/jwellery3.jpg"
+    },
+    {
+      "id": 9,
+      "title": "shirt production",
+      "class": "shirt",
+      "price": 329,
+      "image": "./assets/images/shirt2.jpg"
+    },
+    {
+      "id": 10,
+      "title": "shirt production",
+      "class": "shirt",
+      "price": 329,
+      "image": "./assets/images/shirt3.jpg"
+    },
+    {
+      "id": 11,
+      "title": "shirt production",
+      "class": "shirt",
+      "price": 329,
+      "image": "./assets/images/shirt14.jpg"
+    },
+    {
+      "id": 12,
+      "title": "gown production",
+      "class": "gown",
+      "price": 329,
+      "image": "./assets/images/gown2.jpg"
+    },
+    {
+      "id": 13,
+      "title": "gown production",
+      "class": "gown",
+      "price": 329,
+      "image": "./assets/images/gwon3.jpg"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/main.css" />
+    <script
+      src="https://kit.fontawesome.com/519a83532f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Mini-project of Search</title>
+  </head>
+  <body>
+    <!-- nav section start -->
+    <div class="navbar">
+      <nav class="nav">
+        <div class="container">
+          <div class="form-wrapper">
+            <h1>ProductFilter</h1>
+            <form>
+              <input
+                id="input-search"
+                type="text"
+                placeholder="Search products..."
+              />
+            </form>
+          </div>
+          <div class="navigation-tab">
+            <div class="tab">
+              <input name="filter-tab" id="all" type="radio" checked />
+              <label class="btn" data-filter=" " for="all">All</label>
+            </div>
+            <div class="tab">
+              <input name="filter-tab" id="watch" type="radio" />
+              <label class="btn" data-filter="watch" for="watch">Watch</label>
+            </div>
+            <div class="tab">
+              <input name="filter-tab" id="shirt" type="radio" />
+              <label class="btn" data-filter="shirt" for="shirt">Shirt</label>
+            </div>
+            <div class="tab">
+              <input name="filter-tab" id="gown" type="radio" />
+              <label class="btn" data-filter="gown" for="gown">Gown</label>
+            </div>
+            <div class="tab">
+              <input name="filter-tab" id="jewelry" type="radio" />
+              <label class="btn" data-filter="jewelry" for="jewelry"
+                >Jewelry</label
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- nav section end -->
+
+    <main>
+      <!-- products section start-->
+
+      <div class="container">
+        <div class="grid-products"></div>
+      </div>
+
+      <!-- products section end-->
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>
